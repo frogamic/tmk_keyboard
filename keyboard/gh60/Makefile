@@ -48,8 +48,7 @@ TMK_DIR = ../../tmk_core
 TARGET_DIR = .
 
 # project specific files
-SRC =	keymap_common.c \
-	matrix.c \
+SRC =	matrix.c \
 	led.c
 
 KEYMAP = ratchet
@@ -121,8 +120,8 @@ BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration(+1000)
 EXTRAKEY_ENABLE = yes	# Audio control and System control(+450)
 CONSOLE_ENABLE = yes	# Console for debug(+400)
 COMMAND_ENABLE = yes    # Commands for debug and configuration
-SLEEP_LED_ENABLE = yes  # Breathing sleep LED during USB suspend
-# NKRO_ENABLE = yes	# USB Nkey Rollover - not yet supported in LUFA
+#SLEEP_LED_ENABLE = yes  # Breathing sleep LED during USB suspend
+NKRO_ENABLE = yes	# USB Nkey Rollover
 
 
 # Optimize size but this may cause error "relocation truncated to fit"
