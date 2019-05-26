@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
-#define DEVICE_VER      0x0001
+#define VENDOR_ID       0xC0DE
+#define PRODUCT_ID      0xFACE
+#define DEVICE_VER      0xDEAD
 #define MANUFACTURER    frogamic
 #define PRODUCT         RatchetBoard
 #define DESCRIPTION     Gaming keyboard
